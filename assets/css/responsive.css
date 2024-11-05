@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

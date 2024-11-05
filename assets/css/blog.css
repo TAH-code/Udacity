@@ -1,0 +1,146 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 10px; /* Space between cards */
+}
+
+/* Container for the blog cards grid */
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust number of columns as needed */
+    gap: 1.5rem; /* Adds space between cards */
+    padding: 1rem;
+}
+
+/* General styling for all cards */
+.blog-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* Adjust image size */
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.blog-card h2 {
+    font-size: 1.25em;
+    color: #333;
+    margin-top: 0.5em;
+}
+
+.blog-card p {
+    color: #666;
+    margin: 0.5em 0;
+}
+
+.blog-card a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-card a:hover {
+    text-decoration: underline;
+}
+
+.blog-intro{
+    text-align: center;
+}
+
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Blog post title and metadata */
+.blog-post-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.content small {
+    color: #6c757d;
+}
+
+/* Sidebar */
+.sidebar h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 0.9rem;
+}
+
+.sidebar .list-unstyled li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Content styling */
+.content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.content h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.2rem;
+}
+
+.content p, .content ul, .content ol {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.content ul, .content ol {
+    padding-left: 1.5rem;
+}
+
+.content ul li, .content ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* Code block styling */
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.footer-post2 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    text-align: left;
+}
+
+.footer-post2 .btn-link {
+    color: #007bff;
+    font-weight: bold;
+
+}
